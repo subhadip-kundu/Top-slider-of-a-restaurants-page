@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot and Testy food here</title>
+
+    <!-- Swiperjs css file cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Font awesome cdn link -->
+    <script src="https://kit.fontawesome.com/7a684040fb.js" crossorigin="anonymous"></script>
+
+    <!-- External css file link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Media quary file -->
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+    <!-- Header section -->
+
+    <header>
+        <a href="#" class="logo"><i class="fa-solid fa-utensils"></i>resto.</a>
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#Dishes">Dishes</a>
+            <a href="#About">About</a>
+            <a href="#Menu">Menu</a>
+            <a href="#Review">Review</a>
+            <a href="#Order">Order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+
+    <!-- search form -->
+    <form id="search-form">
+        <input type="search" name="" id="search-box" placeholder="Search here ....">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="swiper  home-slider ">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our special dish</span>
+                        <h3>spicy noodels</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, asperiores nulla.
+                        </p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./Assets/Noodles.png" alt="noodles">
+                    </div>
+                </div>
+
+                <div class="slide swiper-slide">
+                    <div class="content">
+                        <span>Our special dish</span>
+                        <h3>fried chicken</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, asperiores nulla.
+                        </p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./Assets/crispy-fried-chicken-plate.png" alt="chicken">
+                    </div>
+                </div>
+
+                <div class="slide swiper-slide">
+                    <div class="content">
+                        <span>Our special dish</span>
+                        <h3>hot pizza</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, asperiores nulla.
+                        </p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./Assets/Pizza.png" alt="pizza">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- External JS file link -->
+    <script src="./js/script.js"></script>
+
+    
+</body>
+
+</html>
