@@ -21,7 +21,7 @@
         left: 0;right: 0;
         background: #fff;
         border-top: .1rem solid #00000033;
-        border-bottom: .1rem solid #00000033;
+        border-bottom: .2rem solid #00000033;
         padding: 1rem;
         clip-path:polygon(0 0,100% 0,100% 0,0 0);
         /* display:none; */
